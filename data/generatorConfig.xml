@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/poc" userId="root" password="root" />
+    <javaModelGenerator targetPackage="com.yogi.data.model" targetProject="data/src/main/java" />
+    <sqlMapGenerator targetPackage="com.yogi.data.xmldef" targetProject="data/src/main/java" />
+    <javaClientGenerator targetPackage="com.yogi.data.dao" targetProject="data/src/main/java" type="XMLMAPPER" />
+    <table schema="poc" tableName="orders" />
+    <table schema="poc" tableName="customer" />
+    <table schema="poc" tableName="customer_promotions" />
+    <table schema="poc" tableName="order_line" />
+    <table schema="poc" tableName="product" />
+    <table schema="poc" tableName="promotions" />
+        
+  </context>
+</generatorConfiguration>

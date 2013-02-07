@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/orderxml" xmlns:tns="http://www.example.org/orderxml" elementFormDefault="qualified">
+
+    
+    <complexType name="Order">
+    	<sequence>
+    		<element name="orderId" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="orders" type="tns:Order"></element>
+
+
+    <element name="message" type="string"></element>
+</schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/result" xmlns:tns="http://www.example.org/result" elementFormDefault="qualified" xmlns:Q1="http://www.example.org/person">
+
+    <import schemaLocation="../input/person.xsd" namespace="http://www.example.org/person"></import>
+    <element name="result" type="tns:Result"></element>
+    
+    <complexType name="Result">
+    	<sequence>
+    		<element name="loveme" type="string"></element>
+    		<element name="person1" type="Q1:Person"></element>
+    		<element name="person2" type="Q1:Person"></element>
+    	</sequence>
+    </complexType>
+</schema>
