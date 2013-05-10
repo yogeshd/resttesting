@@ -4,7 +4,7 @@ package com.yogi.data;
  * Hello world!
  *
  */
-//Yogi second one
+
 public class App 
 {
     public static void main( String[] args )
@@ -12,3 +12,4 @@ public class App
         System.out.println( "Hello World!" );
     }
 }
+//changing this for dochanges
