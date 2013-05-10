@@ -3,7 +3,7 @@ package com.yogi.data;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-
+//for directly on the server this changes are not part of the local repository
 /**
  * Unit test for simple App.
  */
